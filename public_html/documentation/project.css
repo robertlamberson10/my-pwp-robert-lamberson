@@ -2,6 +2,7 @@
     background-color: rgba(255,187,60,0.07);
     font-style: oblique;
     font-family: Century, serif;
+    position: sticky;
 
 }
 
@@ -10,7 +11,10 @@
     font-family: "Monotype Corsiva", serif;
 }
 
-.landing {
+#landing {
     background-color: rgba(255,187,60,0.07);
 }
 
+#Portfolio {
+    padding-bottom: 400px;
+}
