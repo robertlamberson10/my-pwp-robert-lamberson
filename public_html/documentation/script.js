@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#contact").validate({
+    $("#contact-form").validate({
         debug:true,
         errorClass: "alert alert-danger",
         errorLabelContainer: "#output-area",

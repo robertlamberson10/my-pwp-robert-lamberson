@@ -37,11 +37,6 @@ textarea {
     position: relative;
 }
 
-form {
-    padding: 37.5px;
-    margin: 50px 0;
-}
-
 h1 {
     color: #474544;
     font-size: 32px;
@@ -49,6 +44,7 @@ h1 {
     letter-spacing: 7px;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 20px;
 }
 
 .underline {
