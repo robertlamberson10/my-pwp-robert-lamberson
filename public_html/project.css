@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgba(255,133,152,0.12);
+    font-style: oblique;
+    font-family: Century, serif;
+
+}
+
+.navbar-brand {
+    font-size: xxx-large;
+    font-family: "Monotype Corsiva", serif;
+}
+
+#landing {
+    background-color: rgba(255,133,152,0.12);
+}
+
+#about-me {
+    font-size: x-large;
+    font-family: Century, serif;
+    text-align: center;
+}
+
+#portfolio {
+    font-size: large;
+    font-family: Century, serif;
+}
+
+#button {
+    font-size: x-large;
+    font-family: Century, serif;
+}
+
+#toolbox {
+    text-align: center;
+}
+
+.p {
+    font-size: xx-large;
+}
+

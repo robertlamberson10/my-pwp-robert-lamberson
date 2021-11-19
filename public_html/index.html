@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>My PWP</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid sticky-top">
+            <a class="navbar-brand h1" href="#">RL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mx-5 mb-0 mb-lg-0">
+                    <li class="nav-item-1">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item-2">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item-3">
+                        <a class="nav-link" href="#toolbox">Toolbox</a>
+                    </li>
+                    <li class="nav-item-4">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item-5">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--Section 1-->
+<div id="landing" class="container-fluid py-5">
+    <div class="row">
+        <div class="col-4 align-self-center m-auto">
+            <h1>Hi, my name is</h1>
+            <h3>Robert Lamberson</h3>
+            <p class="text1">
+                I am a Full-Stack web developer from Amarillo, Tx
+            <p>
+            <div id="button" class="btn btn-outline-secondary">Check out my work</div>
+        </div>
+        <div class="col-5 py-5">
+            <img src="documentation/Punisher.png" height="500" width="462" alt="" class="d-none d-md-block">
+        </div>
+    </div>
+</div>
+
+<!--Section 2-->
+<div id="about" class="container text-center container-fluid px-5"><a href="#about"></a>
+    <div class="row">
+        <div class="col-lg-12 px-5 py-5"></div>
+        <p>
+            Your head is not an artifact! I recommend you don't fire until you're within 40,000 kilometers.
+            And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+            Not if I weaken first. Talk about going nowhere fast. Congratulations - you just destroyed the
+            Enterprise. Some days you get the bear, and some days the bear gets you. My oath is between
+            Captain Kargan and myself. Your only concern is with how you obey my orders.
+            Or do you prefer the rank of prisoner to that of lieutenant?
+        </p>
+    </div>
+</div>
+
+<!--Section 3-->
+<div id="portfolio" class="container-fluid px-5 py-5"><a href="#portfolio"></a>
+    <div class="row">
+        <div class="col-md-8 px-5 py-5">
+            <img src="documentation/Working.jpg" alt=""/>
+        </div>
+        <div class="col-lg-4 align-self-center m-auto">
+            <p class="text1">
+                Your head is not an artifact! I recommend you don't fire until you're within 40,000 kilometers.
+                And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+                Not if I weaken first. Talk about going nowhere fast. Congratulations - you just destroyed the
+                Enterprise. Some days you get the bear, and some days the bear gets you. My oath is between
+                Captain Kargan and myself. Your only concern is with how you obey my orders.
+                Or do you prefer the rank of prisoner to that of lieutenant?
+            <p>
+        </div>
+    </div>
+</div>
+
+<!--Toolbox-->
+<section id="toolbox"><a href="#toolbox"></a>
+    <div class="container-fluid pb-5">
+        <h1>&bull;Toolbox&bull;</h1>
+            <p>
+                Your only concern is with how you obey my orders.
+                Or do you prefer the rank of prisoner to that of lieutenant?
+            </p>
+    </div>
+</section>
+
+<!--Contact me-->
+<div id="contact-from" class="container"><a href="#contact"></a>
+    <h1>&bull;Keep in Touch&bull;</h1>
+    <div class="underline">
+    </div>
+    <div class="icon_wrapper">
+        <svg class="icon" viewBox="0 0 145.192 105.192">
+        </svg>
+    </div>
+    <form action="./apis/" method="post" id="contact" novalidate>
+        <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="My name is" name="name" id="name" required>
+        </div>
+        <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="My e-mail is" name="email" id="email" required>
+        </div>
+        <div class="telephone">
+            <label for="telephone"></label>
+            <input type="text" placeholder="My number is" name="telephone" id="telephone" required>
+        </div>
+        <div class="subject">
+            <label for="subject"></label>
+            <select name="subject" id="subject" required>
+                <option label="Subject" disabled hidden selected></option>
+                <option>I'd like to ask a question</option>
+                <option>I'd like to start a project</option>
+                <option>I'd like to talk about a job opening</option>
+            </select>
+        </div>
+        <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="I'd like to chat about" id="message" cols="30" rows="5" required></textarea>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LdQzj4dAAAAAJAF4R_qsZdAvlfEaJnRqC007un4"></div>
+        <div class="submit">
+            <button type="submit" value="submit" id="form-submit">Submit</button>
+            <button type="reset" value="reset" id="form-reset">Reset</button>
+        </div>
+    </form>
+    <div id="output-area"></div>
+</div>
+
+<!--Footer-->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg
+                    class="bi" width="30" height="24">
+                <use
+                        xlink:href="#bootstrap">
+                </use>
+            </svg>
+        </a>
+        <span class="text-muted">© 2021 Robert Lamberson</span>
+    </div>
+</footer>
+
+<!--JQuery-->
+<!-- Jquery and Bootstrap Dependencies -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Make sure to use Jquery min and not the slim version provided by Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+
+<!-- jQuery Form, Validate, Additional Methods, -->
+<script crossorigin="anonymous" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+
+<script crossorigin="anonymous" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+<script crossorigin="anonymous" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+<!-- Google reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<!-- custom jquery script-->
+<script src="script.js"></script>
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
