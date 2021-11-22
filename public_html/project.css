@@ -38,3 +38,35 @@
     font-size: xx-large;
 }
 
+#github{
+    margin-left: -20px;
+}
+
+#js{
+    width: 125px;
+    height: 55px;
+}
+
+#react{
+    margin-left: 20px;
+    height: 50px;
+    width: 40px;
+}
+
+#mysql{
+    margin-left: 10px;
+}
+
+#bootstrap{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#top-tools{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#bottom-tools{
+    margin-bottom: 50px;
+}
