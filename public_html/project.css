@@ -14,14 +14,14 @@
     background-color: #C2D8ED;
 }
 
-#about-me {
-    font-size: x-large;
+#about {
     font-family: Century, serif;
     text-align: center;
+    font-size: 30px;
 }
 
 #portfolio {
-    font-size: large;
+    font-size: 19px;
     font-family: Century, serif;
 }
 
@@ -32,6 +32,7 @@
 
 #toolbox {
     text-align: center;
+    font-size: 30px;
 }
 
 .p {
@@ -72,7 +73,7 @@
 }
 
 #portfolio-text{
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 100px;
 }
 
