@@ -2,6 +2,7 @@
     background-color: #F2F3EB;
     font-style: oblique;
     font-family: Century, serif;
+    margin-top: -20px;
 
 }
 
@@ -27,6 +28,7 @@
 #portfolio {
     font-size: 19px;
     font-family: Century, serif;
+
 }
 
 #button {
@@ -37,6 +39,7 @@
 #toolbox {
     text-align: center;
     font-size: 30px;
+    margin-top: 40px;
 }
 
 .p {
@@ -79,8 +82,4 @@
 #portfolio-text{
     padding-top: 80px;
     padding-left: 100px;
-}
-
-#portfolio-image{
-
 }
