@@ -1,3 +1,6 @@
-$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
+let myModal = document.getElementById('myModal')
+let myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus()
 })

@@ -34,7 +34,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item-5">
-                        <a class="nav-link" href="#resume">Resume</a>
+                        <a class="nav-link" data-bs-toggle="modal" href="" data-bs-target="#exampleModal">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
             <a class="btn btn-outline-secondary" href="#portfolio">Check out my work</a>
         </div>
         <div class="col-lg-5 py-5 d-flex justify-content-center">
-            <img id="image" src="documentation/Punisher.png" height="500" width="462" alt="" class="d-none d-md-block">
+            <img id="image" src="documentation/profile pic 3.jpg" height="500" width="462" alt="" class="d-none d-md-block rounded-circle">
         </div>
     </div>
 </div>
@@ -77,7 +77,7 @@
 <div id="portfolio" class="flex-wrap px-5 py-5 mt-5"><a href="#portfolio"></a>
     <div class="row">
         <div id="portfolio-image" class="col-lg-6 px-5 py-5 d-flex justify-content-center">
-            <img class="rounded-circle align-items-center" src="documentation/Working.jpg" alt=""/>
+            <img class="rounded-circle align-items-center shadow p-3 mb-5 bg-body rounded" src="documentation/Working.jpg" alt="" />
         </div>
         <div id="portfolio-text" class="col-xl-6 pt-5 text-center align-content-center">
             <p class="text1 pt-5 mt-5">
@@ -85,13 +85,35 @@
                 for 50+ hours a week every week. As part of my bootcamp I took part in a three-person collaboration project.
                 Learning how to develop with a team and communicating using GitHub was a big emphasis for me. Our collaboration
                 led us to creating a much-needed hiring site for local Amarillo tech talent in only six weeks. I also created a
-                personal work portfolio to not only get information about my self and my projects but also display another development
+                personal work portfolio (which happens to be this page) to not only get information about my self and my projects but also display another development
                 project I completed in the 10-week course.
             <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Resume
+            </button>
         </div>
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!--Toolbox-->
 <section id="toolbox"><a href="#toolbox"></a>
     <div class="container-fluid pb-5 pt-5 mb-5">
@@ -191,6 +213,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+<script src="modal.js"></script>
 
 
 </body>
